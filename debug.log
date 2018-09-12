@@ -1,0 +1,385 @@
+[16:17:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:17:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:17:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:18:30] [Server thread/INFO] [FML]: MinecraftForge v14.23.1.2607 Initialized
+[16:18:30] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:18:31] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[16:18:31] [Server thread/DEBUG] [mixin]: Mixing forge.MixinUsernameCache from mixins.forge.preinit.json into net.minecraftforge.common.UsernameCache
+[16:18:31] [Server thread/DEBUG] [mixin]: Mixing forge.fluids.MixinFluidRegistry from mixins.forge.core.json into net.minecraftforge.fluids.FluidRegistry
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/registry/type/extra/FluidTypeRegistryModule to metadata cache
+[16:18:31] [Server thread/DEBUG] [mixin]: Mixing forge.fluids.MixinFluid from mixins.forge.core.json into net.minecraftforge.fluids.Fluid
+[16:18:31] [Server thread/DEBUG] [mixin]: Mixing forge.common.MixinForgeHooks from mixins.forge.core.json into net.minecraftforge.common.ForgeHooks
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/event/entity/player/PlayerInteractEvent to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/event/entity/player/PlayerEvent to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/event/entity/living/LivingEvent to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/event/world/BlockEvent$MultiPlaceEvent to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/event/world/BlockEvent$PlaceEvent to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for java/util/ArrayDeque to metadata cache
+[16:18:31] [Server thread/DEBUG] [mixin]: Mixing forge.event.MixinServerChatEvent from mixins.forge.core.json into net.minecraftforge.event.ServerChatEvent
+[16:18:31] [Server thread/DEBUG] [FML]: File C:\Users\davifharias\Desktop\Servidor Minecraft\config\injectedDependencies.json not found. No dependencies injected
+[16:18:31] [Server thread/DEBUG] [mixin]: Mixing fml.common.MixinLoadController from mixins.forge.preinit.json into net.minecraftforge.fml.common.LoadController
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/mod/interfaces/IMixinLoadController to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/ThreadLocal to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/mod/event/StateRegistry to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for com/google/common/eventbus/EventBus to metadata cache
+[16:18:31] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/LoaderState to metadata cache
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventState from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLStateEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventConstruction from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLConstructionEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventPreInit from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventInit from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLInitializationEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventPostInit from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventLoadComplete from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLLoadCompleteEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventServerAboutToStart from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLServerAboutToStartEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventServerStarting from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLServerStartingEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventServerStarted from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLServerStartedEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventServerStopping from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLServerStoppingEvent
+[16:18:32] [Server thread/DEBUG] [mixin]: Mixing event.state.MixinEventServerStopped from mixins.forge.core.json into net.minecraftforge.fml.common.event.FMLServerStoppedEvent
+[16:18:32] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, org.spongepowered.mod.SpongeApiModContainer, org.spongepowered.mod.SpongeMod]
+[16:18:32] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/davifharias/Desktop/Servidor%20Minecraft/mods/spongeforge-1.12.2-2586-7.1.0-BETA-2863%20(1).jar!/mcmod.info
+[16:18:32] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[16:18:35] [Server thread/DEBUG] [mixin]: Mixing world.MixinLocation from mixins.common.api.json into org.spongepowered.api.world.Location
+[16:18:36] [Server thread/DEBUG] [mixin]: Mixing network.MixinPacketBuffer from mixins.common.core.json into net.minecraft.network.PacketBuffer
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/network/SpongeNetworkManager to metadata cache
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/network/ChannelRegistrar to metadata cache
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for com/google/common/base/Charsets to metadata cache
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for io/netty/handler/codec/EncoderException to metadata cache
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for io/netty/handler/codec/CodecException to metadata cache
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for io/netty/handler/codec/DecoderException to metadata cache
+[16:18:36] [Server thread/TRACE] [mixin]: Added class metadata for java/nio/ByteOrder to metadata cache
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readerIndex()I for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method writerIndex()I for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method hasArray()Z for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method array()[B for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readBoolean()Z for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getBoolean(I)Z for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readByte()B for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getByte(I)B for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readShort()S for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getShort(I)S for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readChar()C for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getChar(I)C for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readLong()J for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getLong(I)J for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readFloat()F for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getFloat(I)F for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method readDouble()D for net/minecraft/network/PacketBuffer
+[16:18:36] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getDouble(I)D for net/minecraft/network/PacketBuffer
+[16:18:37] [Server thread/DEBUG] [Sponge]: Sponge Timings: true - Verbose: true - Interval: 1m - Length: 3m
+[16:18:38] [Server thread/DEBUG] [mixin]: Mixing common.fluid.MixinSpongeFluidStackBuilder from mixins.forge.core.json into org.spongepowered.common.extra.fluid.SpongeFluidStackBuilder
+[16:18:39] [Server thread/DEBUG] [mixin]: Mixing advancement.MixinICriterionInstance from mixins.common.core.json into net.minecraft.advancements.ICriterionInstance
+[16:18:39] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/advancement/criteria/trigger/FilteredTrigger to metadata cache
+[16:18:39] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/advancement/UnknownFilteredTriggerConfiguration to metadata cache
+[16:18:39] [Server thread/DEBUG] [mixin]: Mixing util.MixinChatType from mixins.common.core.json into net.minecraft.util.text.ChatType
+[16:18:39] [Server thread/DEBUG] [mixin]: Mixing scoreboard.MixinScoreboardObjectiveDisplayType from mixins.common.core.json into net.minecraft.scoreboard.IScoreCriteria$EnumRenderType
+[16:18:39] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/scoreboard/objective/displaymode/ObjectiveDisplayMode to metadata cache
+[16:18:39] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenDesertWells from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenDesertWells
+[16:18:39] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/block/state/pattern/BlockStateMatcher to metadata cache
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing scoreboard.MixinEnumVisible from mixins.common.core.json into net.minecraft.scoreboard.Team$EnumVisible
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing data.types.MixinEnumChatVisibility from mixins.common.core.json into net.minecraft.entity.player.EntityPlayer$EnumChatVisibility
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/interfaces/IMixinEnumChatVisibility to metadata cache
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing data.types.MixinBossInfoColor from mixins.common.core.json into net.minecraft.world.BossInfo$Color
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/boss/BossBarColor to metadata cache
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing scoreboard.MixinCollisionRule from mixins.common.core.json into net.minecraft.scoreboard.Team$CollisionRule
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinContainerCrafting from mixins.common.core.json into net.minecraft.inventory.ContainerWorkbench
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinContainerWorkbench from mixins.common.core.json into net.minecraft.inventory.ContainerWorkbench
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/item/inventory/lens/impl/comp/CraftingInventoryLensImpl to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/item/inventory/lens/comp/CraftingInventoryLens to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/item/inventory/lens/impl/comp/MainPlayerInventoryLensImpl to metadata cache
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinContainerCanInteract from mixins.common.core.json into net.minecraft.inventory.ContainerWorkbench
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinContainerRepair from mixins.common.core.json into net.minecraft.inventory.ContainerRepair
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinContainerCanInteract from mixins.common.core.json into net.minecraft.inventory.ContainerRepair
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing item.recipe.MixiSpongeCraftingRecipeRegistry from mixins.forge.core.json into org.spongepowered.common.item.recipe.crafting.SpongeCraftingRecipeRegistry
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/item/recipe/crafting/AbstractSpongeCraftingRecipe to metadata cache
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing advancement.MixinFrameType from mixins.common.core.json into net.minecraft.advancements.FrameType
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/Character to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/text/format/SpongeTextStyle to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/text/format/TextStyle$Base to metadata cache
+[16:18:40] [Server thread/DEBUG] [mixin]: Mixing advancement.MixinCriterion from mixins.common.core.json into net.minecraft.advancements.Criterion
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/interfaces/advancement/IMixinCriterion to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/advancement/ICriterion to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/advancement/criteria/AdvancementCriterion to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for com/google/gson/JsonElement to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/advancement/SpongeScoreCriterion to metadata cache
+[16:18:40] [Server thread/TRACE] [mixin]: Added class metadata for com/google/gson/JsonDeserializationContext to metadata cache
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenDeadBush from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenDeadBush
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenDungeons from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenDungeons
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/world/gen/populator/Dungeon to metadata cache
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/util/weighted/LootTable to metadata cache
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/registry/type/world/gen/DungeonMobRegistryModule to metadata cache
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/util/weighted/UnmodifiableWeightedTable to metadata cache
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/entity/EntityArchetype to metadata cache
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenEndIsland from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenEndIsland
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/world/gen/NoiseGeneratorSimplex to metadata cache
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenFire from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenFire
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenFossils from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenFossils
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenGlowstone from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenGlowStone1
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenLake from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenLakes
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/world/gen/populator/Lake to metadata cache
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/data/property/block/MatterProperty to metadata cache
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/data/property/AbstractProperty to metadata cache
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenMelon from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenMelon
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenPumpkin from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenPumpkin
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing world.gen.populators.MixinWorldGenVines from mixins.common.core.json into net.minecraft.world.gen.feature.WorldGenVines
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing data.types.MixinEnumBannerPattern from mixins.common.core.json into net.minecraft.tileentity.BannerPattern
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing data.types.MixinEntityArrowPickupStatus from mixins.common.core.json into net.minecraft.entity.projectile.EntityArrow$PickupStatus
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/data/type/PickupRule to metadata cache
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing advancement.MixinCriteriaTriggers from mixins.common.core.json into net.minecraft.advancements.CriteriaTriggers
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/registry/type/advancement/TriggerTypeRegistryModule to metadata cache
+[16:18:41] [Server thread/DEBUG] [mixin]: Mixing advancement.MixinICriterionTrigger from mixins.common.core.json into net.minecraft.advancements.ICriterionTrigger
+[16:18:41] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/advancement/ITrigger to metadata cache
+[16:18:42] [Server thread/DEBUG] [mixin]: Mixing entity.ai.MixinEntityAITasks from mixins.common.core.json into net.minecraft.entity.ai.EntityAITasks
+[16:18:42] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinTraitInventory from mixins.common.core.json into org.spongepowered.common.item.inventory.custom.CustomInventory
+[16:18:42] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinCustomInventory from mixins.common.core.json into org.spongepowered.common.item.inventory.custom.CustomInventory
+[16:18:42] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/item/inventory/custom/CustomLens to metadata cache
+[16:18:42] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/item/inventory/InventoryArchetype to metadata cache
+[16:18:42] [Server thread/DEBUG] [mixin]: Mixing item.inventory.MixinCustomContainer from mixins.common.core.json into org.spongepowered.common.item.inventory.custom.CustomContainer
+[16:18:44] [Server thread/WARN] [Sponge]: sponge: It is no longer required to include the plugin id when specifying a Key id through Key.Builder#id. This is deprecated and may be removed later. The plugin id will be retrieved from the current PluginContainer in the cause stack. 
+[16:18:44] [Server thread/DEBUG] [mixin]: Mixing entity.MixinArmorEquipable from mixins.common.core.json into org.spongepowered.common.entity.living.human.EntityHuman
+[16:18:44] [Server thread/DEBUG] [mixin]: Mixing entity.human.MixinEntityHuman from mixins.common.core.json into org.spongepowered.common.entity.living.human.EntityHuman
+[16:18:44] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/entity/living/Human to metadata cache
+[16:18:44] [Server thread/DEBUG] [mixin]: Mixing data.types.MixinArtType from mixins.common.core.json into net.minecraft.entity.item.EntityPainting$EnumArt
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinTeleporter from mixins.common.core.json into net.minecraft.world.Teleporter
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/interfaces/world/IMixinTeleporter to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for it/unimi/dsi/fastutil/longs/Long2ObjectMap to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for it/unimi/dsi/fastutil/longs/Long2ObjectFunction to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/Long to metadata cache
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing data.types.MixinBossInfoOverlay from mixins.common.core.json into net.minecraft.world.BossInfo$Overlay
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/boss/BossBarOverlay to metadata cache
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing util.MixinIndirectEntityDamageSource from mixins.common.core.json into net.minecraft.util.EntityDamageSourceIndirect
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/event/cause/entity/damage/source/IndirectEntityDamageSource to metadata cache
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing common.world.MixinWorldManager from mixins.forge.core.json into org.spongepowered.common.world.WorldManager
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/GameState to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/world/storage/ISaveFormat to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/relauncher/Side to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/network/FMLOutboundHandler to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/network/FMLEmbeddedChannel to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for io/netty/channel/embedded/EmbeddedChannel to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for io/netty/channel/AbstractChannel to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for io/netty/util/DefaultAttributeMap to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/network/ForgeMessage to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for java/util/BitSet to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for java/io/DataInputStream to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for java/io/FilterInputStream to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for java/io/InputStream to metadata cache
+[16:18:45] [Server thread/TRACE] [mixin]: Added class metadata for java/nio/file/DirectoryStream to metadata cache
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinDimensionType from mixins.common.core.json into net.minecraft.world.DimensionType
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinDimensionType from mixins.forge.core.json into net.minecraft.world.DimensionType
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinWorldProviderSurface from mixins.common.core.json into net.minecraft.world.WorldProviderSurface
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinWorldProvider from mixins.common.core.json into net.minecraft.world.WorldProvider
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinWorldProvider from mixins.forge.core.json into net.minecraft.world.WorldProvider
+[16:18:45] [Server thread/DEBUG] [mixin]: Skipping Intrinsic mixin method getHeight()I for net/minecraft/world/WorldProvider
+[16:18:45] [Server thread/DEBUG] [mixin]: Mixing world.MixinWorldProviderHell from mixins.common.core.json into net.minecraft.world.WorldProviderHell
+[16:18:46] [Server thread/DEBUG] [mixin]: Mixing world.MixinWorldSettings from mixins.common.core.json into net.minecraft.world.WorldSettings
+[16:18:46] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/world/difficulty/Difficulties to metadata cache
+[16:18:48] [Server thread/DEBUG] [mixin]: Mixing forge.fluids.MixinFluidStack from mixins.forge.core.json into net.minecraftforge.fluids.FluidStack
+[16:18:48] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/api/extra/fluid/FluidStack to metadata cache
+[16:18:48] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraftforge/registries/IRegistryDelegate to metadata cache
+[16:18:48] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/extra/fluid/SpongeFluidStackSnapshotBuilder to metadata cache
+[16:18:52] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:18:52] [Server thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\davifharias\Desktop\Servidor Minecraft\forge.jar, examining for mod candidates
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Users\davifharias\Desktop\Servidor Minecraft\mods\spongeforge-1.12.2-2586-7.1.0-BETA-2863 (1).jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\access-bridge-64.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\cldrdata.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\dnsns.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\jaccess.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\jfxrt.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\localedata.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\nashorn.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\sunec.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\sunjce_provider.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\sunmscapi.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\sunpkcs11.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping known library file C:\Program Files\Java\jre1.8.0_181\lib\ext\zipfs.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[16:18:52] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:18:52] [Server thread/INFO] [FML]: Searching C:\Users\davifharias\Desktop\Servidor Minecraft\mods for mods
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file BetterKits-0.9.8.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file CatClearLag-0.8.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file flexiblelogin-0.16.7.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file griefprevention-1.12.2-4.3.0.654-api.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file GTS-3.11.0-S7.1.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file HomeSetHome1-2.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Impactor-S7.1.0-1.4.0.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Ignoring unknown file mod_list.json in mods directory
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file permissionsex-sponge-2.0-SNAPSHOT-shaded.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Pixelmon-Mod-1.12.2-v6.3.4.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file PixelMoney-1.12.2-2.2.1.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file projectcore-7.0.0-0.2.1.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file simplechat-6.1.0-0.6.0.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file simpletags-7.1.0-0.5.0.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Sponge-ClearChat.jar
+[16:18:52] [Server thread/TRACE] [FML]: Skipping already parsed coremod or tweaker spongeforge-1.12.2-2586-7.1.0-BETA-2863 (1).jar
+[16:18:52] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file UltimateChat-1.8.8-b196-Universal.jar
+[16:18:52] [Server thread/DEBUG] [FML]: Examining file forge.jar for potential mods
+[16:18:52] [Server thread/DEBUG] [FML]: The mod container forge.jar appears to be missing an mcmod.info file
+[16:18:53] [Server thread/DEBUG] [FML]: Examining file BetterKits-0.9.8.jar for potential mods
+[16:18:53] [Server thread/TRACE] [FML]: Located mcmod.info file in file BetterKits-0.9.8.jar
+[16:18:53] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (net.kaikk.mc.betterkits.sponge.BetterKits) - loading
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file CatClearLag-0.8.jar for potential mods
+[16:18:54] [Server thread/TRACE] [FML]: Located mcmod.info file in file CatClearLag-0.8.jar
+[16:18:54] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (me.time6628.clag.sponge.CatClearLag) - loading
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file flexiblelogin-0.16.7.jar for potential mods
+[16:18:54] [Server thread/TRACE] [FML]: Located mcmod.info file in file flexiblelogin-0.16.7.jar
+[16:18:54] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.github.games647.flexiblelogin.FlexibleLogin) - loading
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file griefprevention-1.12.2-4.3.0.654-api.jar for potential mods
+[16:18:54] [Server thread/DEBUG] [FML]: The mod container griefprevention-1.12.2-4.3.0.654-api.jar appears to be missing an mcmod.info file
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file GTS-3.11.0-S7.1.jar for potential mods
+[16:18:54] [Server thread/TRACE] [FML]: Located mcmod.info file in file GTS-3.11.0-S7.1.jar
+[16:18:54] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.nickimpact.gts.GTS) - loading
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file HomeSetHome1-2.jar for potential mods
+[16:18:54] [Server thread/DEBUG] [FML]: The mod container HomeSetHome1-2.jar appears to be missing an mcmod.info file
+[16:18:54] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (net.javaman.homesethome.Main) - loading
+[16:18:54] [Server thread/ERROR] [Sponge]: Skipping plugin with invalid plugin ID 'HomeSetHome'. Plugin IDs should be lowercase, and only contain characters from a-z, dashes or underscores, start with a lowercase letter, and not exceed 64 characters.
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file Impactor-S7.1.0-1.4.0.jar for potential mods
+[16:18:54] [Server thread/TRACE] [FML]: Located mcmod.info file in file Impactor-S7.1.0-1.4.0.jar
+[16:18:54] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.nickimpact.impactor.ImpactorCore) - loading
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file permissionsex-sponge-2.0-SNAPSHOT-shaded.jar for potential mods
+[16:18:54] [Server thread/TRACE] [FML]: Located mcmod.info file in file permissionsex-sponge-2.0-SNAPSHOT-shaded.jar
+[16:18:54] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (ninja.leaping.permissionsex.sponge.PermissionsExPlugin) - loading
+[16:18:54] [Server thread/DEBUG] [FML]: Examining file Pixelmon-Mod-1.12.2-v6.3.4.jar for potential mods
+[16:18:54] [Server thread/TRACE] [FML]: Located mcmod.info file in file Pixelmon-Mod-1.12.2-v6.3.4.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.pixelmonmod.pixelmon.Pixelmon) - loading
+[16:18:55] [Server thread/TRACE] [pixelmon]: Parsed dependency info : Requirements: [] After:[] Before:[]
+[16:18:55] [Server thread/DEBUG] [FML]: Examining file PixelMoney-1.12.2-2.2.1.jar for potential mods
+[16:18:55] [Server thread/TRACE] [FML]: Located mcmod.info file in file PixelMoney-1.12.2-2.2.1.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (br.github.superteits.pixelmoney.PixelMoney) - loading
+[16:18:55] [Server thread/DEBUG] [FML]: Examining file projectcore-7.0.0-0.2.1.jar for potential mods
+[16:18:55] [Server thread/TRACE] [FML]: Located mcmod.info file in file projectcore-7.0.0-0.2.1.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.gmail.trentech.pjc.Main) - loading
+[16:18:55] [Server thread/DEBUG] [FML]: Examining file simplechat-6.1.0-0.6.0.jar for potential mods
+[16:18:55] [Server thread/TRACE] [FML]: Located mcmod.info file in file simplechat-6.1.0-0.6.0.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.gmail.trentech.simplechat.Main) - loading
+[16:18:55] [Server thread/DEBUG] [FML]: Examining file simpletags-7.1.0-0.5.0.jar for potential mods
+[16:18:55] [Server thread/TRACE] [FML]: Located mcmod.info file in file simpletags-7.1.0-0.5.0.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.gmail.trentech.simpletags.Main) - loading
+[16:18:55] [Server thread/DEBUG] [FML]: Examining file Sponge-ClearChat.jar for potential mods
+[16:18:55] [Server thread/TRACE] [FML]: Located mcmod.info file in file Sponge-ClearChat.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (com.xavlios.ClearChat) - loading
+[16:18:55] [Server thread/DEBUG] [FML]: Examining file UltimateChat-1.8.8-b196-Universal.jar for potential mods
+[16:18:55] [Server thread/TRACE] [FML]: Located mcmod.info file in file UltimateChat-1.8.8-b196-Universal.jar
+[16:18:55] [Server thread/DEBUG] [FML]: Identified a mod of type Lorg/spongepowered/api/plugin/Plugin; (br.net.fabiozumbi12.UltimateChat.Sponge.UChat) - loading
+[16:18:56] [Server thread/INFO] [FML]: Forge Mod Loader has identified 20 mods to load
+[16:18:56] [Server thread/TRACE] [FML]: Received a system property request ''
+[16:18:56] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[16:18:56] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[16:18:56] [Server thread/DEBUG] [mixin]: Mixing world.storage.MixinSaveHandler from mixins.common.core.json into net.minecraft.world.storage.SaveHandler
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/common/interfaces/IMixinSaveHandler to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/io/FileInputStream to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/io/Closeable to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/lang/AutoCloseable to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/CompressedStreamTools to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/util/datafix/FixTypes to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/io/FileOutputStream to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/io/OutputStream to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/io/Flushable to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/nio/file/Files to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/nio/file/attribute/BasicFileAttributes to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for java/nio/file/attribute/FileTime to metadata cache
+[16:18:56] [Server thread/DEBUG] [mixin]: Mixing world.storage.MixinSaveHandler from mixins.forge.core.json into net.minecraft.world.storage.SaveHandler
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for net/minecraft/world/storage/SaveFormatOld to metadata cache
+[16:18:56] [Server thread/TRACE] [mixin]: Added class metadata for org/spongepowered/mod/SpongeMod to metadata cache
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for betterkits: assets/betterkits/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for catclearlag: assets/catclearlag/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for flexiblelogin: assets/flexiblelogin/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for gts: assets/gts/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for HomeSetHome: assets/homesethome/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for impactor: assets/impactor/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for permissionsex: assets/permissionsex/lang/en_us.lang
+[16:18:56] [Server thread/DEBUG] [pixelmon]: Enabling mod pixelmon
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for pixelmoney: assets/pixelmoney/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for pjc: assets/pjc/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for simplechat: assets/simplechat/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for simpletags: assets/simpletags/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for clearchat: assets/clearchat/lang/en_us.lang
+[16:18:56] [Server thread/WARN] [FML]: Missing English translation for ultimatechat: assets/ultimatechat/lang/en_us.lang
+[16:18:56] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[16:18:56] [Server thread/WARN] [Sponge]: The mod catclearlag was designed for spongeapi 6.1.0-SNAPSHOT but version 7.1.0-SNAPSHOT-b163786 is in use. It may not work properly.
+[16:18:56] [Server thread/FATAL] [FML]: The mod gts (GTS) requires mods [nucleus] to be available
+[16:18:56] [Server thread/FATAL] [FML]: Mod gts (GTS) requires [nucleus]
+[16:18:56] [Server thread/WARN] [Sponge]: The mod impactor was designed for spongeapi 7.1.0-SNAPSHOT but version 7.1.0-SNAPSHOT-b163786 is in use. It may not work properly.
+[16:18:56] [Server thread/WARN] [Sponge]: The mod pixelmoney was designed for spongeapi 7.1.0-SNAPSHOT but version 7.1.0-SNAPSHOT-b163786 is in use. It may not work properly.
+[16:18:56] [Server thread/WARN] [Sponge]: The mod simplechat was designed for spongeapi 6.1.0-SNAPSHOT but version 7.1.0-SNAPSHOT-b163786 is in use. It may not work properly.
+[16:18:56] [Server thread/WARN] [Sponge]: The mod simpletags was designed for spongeapi 7.1.0-SNAPSHOT but version 7.1.0-SNAPSHOT-b163786 is in use. It may not work properly.
+[16:18:56] [Server thread/WARN] [Sponge]: The mod ultimatechat was designed for spongeapi 6.1.0-SNAPSHOT but version 7.1.0-SNAPSHOT-b163786 is in use. It may not work properly.
+[16:18:56] [Server thread/DEBUG] [FML]: Mod sorting data
+[16:18:56] [Server thread/DEBUG] [FML]: 	betterkits(BetterKits:0.9.8): BetterKits-0.9.8.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	catclearlag(CatClearLag:0.8): CatClearLag-0.8.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	flexiblelogin(FlexibleLogin:0.16.7): flexiblelogin-0.16.7.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	gts(GTS:3.11.0-S7.1): GTS-3.11.0-S7.1.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	HomeSetHome(HomeSetHome:1.1): HomeSetHome1-2.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	impactor(Impactor API:1.4.0): Impactor-S7.1.0-1.4.0.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	permissionsex(PermissionsEx:2.0-SNAPSHOT-b148): permissionsex-sponge-2.0-SNAPSHOT-shaded.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	pixelmon(Pixelmon:6.3.4): Pixelmon-Mod-1.12.2-v6.3.4.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	pixelmoney(PixelMoney:2.2.1): PixelMoney-1.12.2-2.2.1.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	pjc(ProjectCore:0.2.1): projectcore-7.0.0-0.2.1.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	simplechat(Simple Chat:0.6.0): simplechat-6.1.0-0.6.0.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	simpletags(Simple Tags:0.5.0): simpletags-7.1.0-0.5.0.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	clearchat(ClearChat:1.0.0): Sponge-ClearChat.jar ()
+[16:18:56] [Server thread/DEBUG] [FML]: 	ultimatechat(UltimateChat:1.8.8): UltimateChat-1.8.8-b196-Universal.jar ()
+[16:18:57] [Server thread/WARN] [FML]: Can't revert to frozen GameData state without freezing first.
+[16:18:57] [Server thread/TRACE] [minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
+[16:18:57] [Server thread/TRACE] [minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0,012s
+[16:18:57] [Server thread/TRACE] [mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[16:18:57] [Server thread/TRACE] [mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,003s
+[16:18:57] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:18:57] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0,001s
+[16:18:57] [Server thread/TRACE] [forge]: Sending event FMLServerStoppedEvent to mod forge
+[16:18:57] [Server thread/TRACE] [forge]: Sent event FMLServerStoppedEvent to mod forge
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0,001s
+[16:18:57] [Server thread/TRACE] [spongeapi]: Sending event FMLServerStoppedEvent to mod spongeapi
+[16:18:57] [Server thread/TRACE] [spongeapi]: Sent event FMLServerStoppedEvent to mod spongeapi
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - SpongeAPI took 0,001s
+[16:18:57] [Server thread/TRACE] [sponge]: Sending event FMLServerStoppedEvent to mod sponge
+[16:18:57] [Server thread/DEBUG] [mixin]: Mixing api.event.MixinAbstractEvent from mixins.forge.core.json into org.spongepowered.api.event.impl.AbstractEvent
+[16:18:57] [Server thread/TRACE] [sponge]: Sent event FMLServerStoppedEvent to mod sponge
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - SpongeForge took 0,054s
+[16:18:57] [Server thread/TRACE] [betterkits]: Sending event FMLServerStoppedEvent to mod betterkits
+[16:18:57] [Server thread/TRACE] [betterkits]: Sent event FMLServerStoppedEvent to mod betterkits
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - BetterKits took 0,001s
+[16:18:57] [Server thread/TRACE] [catclearlag]: Sending event FMLServerStoppedEvent to mod catclearlag
+[16:18:57] [Server thread/TRACE] [catclearlag]: Sent event FMLServerStoppedEvent to mod catclearlag
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - CatClearLag took 0,001s
+[16:18:57] [Server thread/TRACE] [flexiblelogin]: Sending event FMLServerStoppedEvent to mod flexiblelogin
+[16:18:57] [Server thread/TRACE] [flexiblelogin]: Sent event FMLServerStoppedEvent to mod flexiblelogin
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - FlexibleLogin took 0,001s
+[16:18:57] [Server thread/TRACE] [gts]: Sending event FMLServerStoppedEvent to mod gts
+[16:18:57] [Server thread/TRACE] [gts]: Sent event FMLServerStoppedEvent to mod gts
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - GTS took 0,001s
+[16:18:57] [Server thread/TRACE] [HomeSetHome]: Sending event FMLServerStoppedEvent to mod HomeSetHome
+[16:18:57] [Server thread/TRACE] [HomeSetHome]: Sent event FMLServerStoppedEvent to mod HomeSetHome
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - HomeSetHome took 0,001s
+[16:18:57] [Server thread/TRACE] [impactor]: Sending event FMLServerStoppedEvent to mod impactor
+[16:18:57] [Server thread/TRACE] [impactor]: Sent event FMLServerStoppedEvent to mod impactor
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Impactor API took 0,001s
+[16:18:57] [Server thread/TRACE] [permissionsex]: Sending event FMLServerStoppedEvent to mod permissionsex
+[16:18:57] [Server thread/TRACE] [permissionsex]: Sent event FMLServerStoppedEvent to mod permissionsex
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - PermissionsEx took 0,003s
+[16:18:57] [Server thread/TRACE] [pixelmon]: Sending event FMLServerStoppedEvent to mod pixelmon
+[16:18:57] [Server thread/TRACE] [pixelmon]: Sent event FMLServerStoppedEvent to mod pixelmon
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Pixelmon took 0,003s
+[16:18:57] [Server thread/TRACE] [pixelmoney]: Sending event FMLServerStoppedEvent to mod pixelmoney
+[16:18:57] [Server thread/TRACE] [pixelmoney]: Sent event FMLServerStoppedEvent to mod pixelmoney
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - PixelMoney took 0,001s
+[16:18:57] [Server thread/TRACE] [pjc]: Sending event FMLServerStoppedEvent to mod pjc
+[16:18:57] [Server thread/TRACE] [pjc]: Sent event FMLServerStoppedEvent to mod pjc
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - ProjectCore took 0,001s
+[16:18:57] [Server thread/TRACE] [simplechat]: Sending event FMLServerStoppedEvent to mod simplechat
+[16:18:57] [Server thread/TRACE] [simplechat]: Sent event FMLServerStoppedEvent to mod simplechat
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Simple Chat took 0,001s
+[16:18:57] [Server thread/TRACE] [simpletags]: Sending event FMLServerStoppedEvent to mod simpletags
+[16:18:57] [Server thread/TRACE] [simpletags]: Sent event FMLServerStoppedEvent to mod simpletags
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Simple Tags took 0,003s
+[16:18:57] [Server thread/TRACE] [clearchat]: Sending event FMLServerStoppedEvent to mod clearchat
+[16:18:57] [Server thread/TRACE] [clearchat]: Sent event FMLServerStoppedEvent to mod clearchat
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - ClearChat took 0,014s
+[16:18:57] [Server thread/TRACE] [ultimatechat]: Sending event FMLServerStoppedEvent to mod ultimatechat
+[16:18:57] [Server thread/TRACE] [ultimatechat]: Sent event FMLServerStoppedEvent to mod ultimatechat
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - UltimateChat took 0,001s
+[16:18:57] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0,104s
+[16:18:57] [Server thread/INFO] [FML]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+[16:18:57] [Server thread/INFO] [FML]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.
